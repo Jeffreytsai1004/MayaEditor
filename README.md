@@ -1,23 +1,23 @@
 # Maya Editor
 
 ![alt](images/Screenshot.png)
-A work in progress replacement for the Maya Script Editor
+Maya 脚本编辑器的替代品正在进行中
 
-Written in Python 3 so will only work with more modern version of Maya testing on Maya 2023 using PySide2 
+使用 Python 3 编写，因此仅适用于使用 PySide2 在 Maya 2023 上进行更现代版本的 Maya 测试
 
-See [TODO.md](TODO.md) for roadmap
+请查看 [TODO.md](TODO.md) 路线图
 
-## Installing
+## 安装中
 
-This editor can be installed in any location I usually use my home directory. 
+该编辑器可以安装在我通常使用主目录的任何位置。
 
 ```
-git clone git@github.com:/NCCA/MayaEditor 
+git clone [git@github.com:/Jeffreytsai1004/MayaEditor ](https://github.com/Jeffreytsai1004/MayaEditor)
 ```
 
-If you don't have a git account you can download the zip and extract it. 
+如果您没有 git 帐户，您可以下载 zip 并解压。
 
-There is a simple python script to install and create the module file for the maya plugin. This is in the root of the project folder and is called **installEditor.py** . This will locate the modules folder for the OS and generate the file MayaEditor.mod. This file is located in the Users home folder in one of the following locations.
+有一个简单的 python 脚本来安装和创建 Maya 插件的模块文件。 它位于项目文件夹的根目录中，名为 **installEditor.py** 。 这将找到操作系统的模块文件夹并生成文件 MayaEditor.mod。 该文件位于以下位置之一的用户主文件夹中。
 
 - Linux : $HOME/maya
 - Mac : $HOME/Library/Preferences/Autodesk/maya
@@ -28,20 +28,20 @@ python3 ./installEditor.py
 ```
 
 
-If this install doesn't work you can edit the provided file and modify the path to the correct locations
+如果此安装不起作用，您可以编辑提供的文件并将路径修改为正确的位置
 
 ```
 + MayaEditor 1.0 /Users/jmacey/teaching/Code/MayaEditor
 MAYA_PLUG_IN_PATH +:= plug-ins
 ```
 
-## Loading 
+## 加载
 
-The plugin can be loaded from the plugin manager as shown
+可以从插件管理器加载插件，如图所示
 
 ![alt](images/loadplugin.png)
 
-The editor will auto load and display. If you close the window it can be re-opened using the following code
+编辑器将自动加载并显示。 如果关闭窗口，可以使用以下代码重新打开它
 
 ```
 import maya.cmds as cmds
