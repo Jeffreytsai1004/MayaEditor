@@ -1,26 +1,27 @@
 # TODO
 
-This is my work in progress TODO list, more so I know what to do
+这是我正在进行的待办事项列表，更多这样我知道该做什么
+
 # Immediate
 
-1. Tidy up the Linux / Mac / Windows stuff (use a Qt Resources?)
-2. Refactor the Workspace / UI / Loading logic a bit more
-3. No test should really add some
-4. Add Makefile to run mypy and other tools for checking etc.
+1. 整理 the Linux / Mac / Windows stuff (use a Qt Resources?)
+2. 进一步重构 / UI / Loading logic a bit more
+3. 没有测试真的应该添加一些
+4. 添加Makefile运行mypy等工具进行检查 etc.
 
 # Next
 
-1. Add Search and Replace for editors
-2. Check for file modification and re-load
-3. Add Completer for Python and Mel
-4. Build Better Code model for Python and Mel and display in SideBar
+1. 为编辑器添加搜索和替换
+2. 检查文件修改并重新加载
+3. 为 Python 和 Mel 添加完成器
+4. 为 Python 和 Mel 构建更好的代码模型并在 SideBar 中显示
 
 ya
 # Project Goals
-1. Add Font control / Style Sheets
-2. Add Search / Search Replace
-3. Save more settings
-4. Get Jedi and type hints working better
-5. code completion
+1. 添加字体 control / Style Sheets
+2. 添加 Search / Search Replace
+3. 保存更多设置
+4. 让 Jedi 和类型提示更好地发挥作用
+5. 代码完善
 6. Polish (more like VSCode?)
 7. Can I add Debugging?
