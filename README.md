@@ -12,7 +12,7 @@ Maya 脚本编辑器的替代品正在进行中
 该编辑器可以安装在我通常使用主目录的任何位置。
 
 ```
-git clone [git@github.com:/Jeffreytsai1004/MayaEditor ](https://github.com/Jeffreytsai1004/MayaEditor)
+git clone https://github.com/Jeffreytsai1004/MayaEditor.git
 ```
 
 如果您没有 git 帐户，您可以下载 zip 并解压。
